@@ -1,0 +1,45 @@
+header {
+    background: #004DB3;
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lists {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.lists > ul > li {
+    list-style: none;
+    text-transform: capitalize;
+    width: 69px;
+    font-size: 16px;
+    line-height: 21.6px;
+    color: #AAC4E6;
+    font-weight: 700;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.lists > button {
+    width: 155px;
+    height: 54px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 700;
+    color: #004DB3;
+    background: #FFFFFF;
+    border: none;
+    text-transform: capitalize;
+}
+
