@@ -1,10 +1,11 @@
 main {
     background: #004DB3;
     height: 960px;
+    width: 100%;
 }
 
 .vector11 > img {
-    transform: translateY(440px);
+    transform: translateY(430px);
 }
 
 .dots {
@@ -124,6 +125,10 @@ main {
         width: 100%;
     }
 
+    .vector11 > img {
+        transform: translateY(350px);
+    }
+
     .dots {
         display: none;
     }
@@ -146,6 +151,7 @@ main {
         color: #fff;
         width: 389.7px;
         text-align: center;
+        transform: translateX(-10%);
     }
 
     .main-sec > span:nth-of-type(2) {

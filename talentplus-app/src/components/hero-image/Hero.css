@@ -13,14 +13,14 @@
 }
 
 .bulb {
-    transform: translateY(-15%);
+    transform: translateY(-5%);
 }
 
 .dot2 {
     /* transform: translateX(19%); */
     position: absolute;
     left: 18%;
-    
+    bottom: 1.5%;
 }
 
 .dot2 > img {
@@ -43,10 +43,36 @@
 .hero-img {
     position: absolute;
     left: 10%;
+    display: flex;
 }
 
 .hero-img > img {
     transform: translateY(-1%);
+}
+
+.vs-code {
+    position: absolute;
+    right: 12%;
+    display: grid;
+    gap: 158px;
+    top: 2%;
+}
+
+.word-press {
+    transform: translateX(35%);
+    display: grid;
+    gap: 28rem;
+}
+
+.press {
+    width: 84.24px;
+    height: 84.24px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    background: #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 480px){
@@ -64,11 +90,22 @@
 
     .figma {
         transform: scale(0.6);
+        position: relative;
     }
 
     .figma > img {
         display: none;
-        transform: translateY(-30%);
+    }
+
+    .dot3 > img {
+        transform: translateY(-55px);
+    }
+
+    .line > img {
+        /* transform: translateY(-100px); */
+        position: absolute;
+        bottom: 100px;
+        left: -50px;
     }
 
     .hero-img {

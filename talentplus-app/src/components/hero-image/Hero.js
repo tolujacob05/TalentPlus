@@ -6,6 +6,9 @@ import hero from "../../img/hero.png";
 import Vector12 from "../../img/Vector12.png";
 import Vector3 from "../../img/Vector3.png";
 import Vector4 from "../../img/Vector4.png";
+import vscode from "../../img/vscode.png";
+import path22 from "../../img/path22.png";
+import Vector1 from "../../img/Vector1.png";
 
 const Hero = () => {
     return (
@@ -24,12 +27,23 @@ const Hero = () => {
                             <img src={Frame88} alt="" />
                         </div>
                     </div>
-                    <div className="vs-code"></div>
+                    
                     <div className="dot3">
                         <img src={Vector4} alt="" />
                     </div>
                     <div className="hero-img">
                         <img src={hero} alt="" />
+                        <div className="vs-code">
+                            <img src={vscode} alt="" />
+                            <div className="word-press">
+                                <div className="triangle">
+                                    <img src={Vector1} alt="" />
+                                </div>
+                                <div className="press">
+                                    <img src={path22} alt="" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
