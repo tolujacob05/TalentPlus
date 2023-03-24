@@ -1,0 +1,14 @@
+.logos {
+    /* width: 1727px; */
+    height: 158px;
+    background: #CCDBF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73.62px;
+}
+
+.slack {
+    display: flex;
+    gap: 10px;
+}
