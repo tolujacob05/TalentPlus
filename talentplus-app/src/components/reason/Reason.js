@@ -35,7 +35,7 @@ const Reason = () => {
                             <img src={Frame132} alt="" />
                         </div>
                         <div className="span">
-                            <span>experienced mentors</span>
+                            <span>one-on-one meetings</span>
                             <span>high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </span>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Reason = () => {
                             <img src={Frame133} alt="" />
                         </div>
                         <div className="span">
-                            <span>experienced mentors</span>
+                            <span>one-on-one meetings</span>
                             <span>high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </span>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Reason = () => {
                             <img src={Frame134} alt="" />
                         </div>
                         <div className="span">
-                            <span>experienced mentors</span>
+                            <span>affordable prices</span>
                             <span>high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </span>
                         </div>
                     </div>

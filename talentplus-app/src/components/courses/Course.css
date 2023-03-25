@@ -49,7 +49,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 92px;
-    margin-top: 30px;
+    margin-top: 68px;
 }
 
 /* .type-heading > span:nth-of-type(1):hover {
@@ -60,7 +60,7 @@ body {
     background: #F8F9FC;
 } */
 
-.type1 {
+.type-1 {
     color: #004DB3;
     width: 137px;
     height: 46px;
@@ -74,7 +74,7 @@ body {
     transform: translateY(20%);
 }
 
-.type1 > span:nth-of-type(1) {
+.type-1 > span:nth-of-type(1) {
     /* width: 150px; */
     /* height: 22px; */
     font-size: 16px;
@@ -124,6 +124,7 @@ body {
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    margin-top: 68px;
 }
 
 .course-types {
@@ -292,4 +293,90 @@ body {
     font-weight: 600;
     color: #004DB3;
 }
+
+.design1 {
+    width: 97px;
+    height: 24px;
+    border: 1px solid #1E5DCE33;
+    background: #1E5DCE33;
+    border-radius: 16px;
+    padding: 4px, 20px, 4px, 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design1 > span {
+    width: 57px;
+    height: 16px;
+    line-height: 16.2px;
+    font-size: 12px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    color: #1E5DCE;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.design2 {
+    width: 115px;
+    height: 24px;
+    border: 1px solid #1E5DCE33;
+    background: #1E5DCE33;
+    border-radius: 16px;
+    padding: 4px, 20px, 4px, 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design2 > span {
+    width: 75px;
+    height: 16px;
+    line-height: 16.2px;
+    font-size: 12px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    color: #1E5DCE;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.design-compt1 {
+    display: flex;
+    gap: 170px;
+    transform: translateX(25px);
+}
+
+.design-compt2 {
+    display: flex;
+    gap: 150px;
+    transform: translateX(25px);
+}
+
+.course-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px, 32px, 16px, 32px;
+    margin-top: 40px;
+}
+
+.course-btn > span {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Satoshi', 'sans-serif';
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 21.6px;
+    width: 209px;
+    height: 54px;
+    border: 1px solid #004DB3;
+    background: #004DB3;
+    border-radius: 4px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+} 
 

@@ -1,0 +1,118 @@
+body {
+    background: #F8F9FC;
+}
+
+.comment-cont {
+    margin-bottom: 40px;
+}
+
+.comment-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+
+.comment-head > span:nth-of-type(1) {
+    text-align: center;
+    width: 802px;
+    height: 69px;
+    font-size: 56px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    line-height: 68.88px;
+    color: #000f24;
+    text-transform: capitalize;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.comment-head > span:nth-of-type(2) {
+    text-align: center;
+    width: 743px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #A1A1A1;
+    text-transform: capitalize;
+}
+
+.swiper {
+    /* border: 1px solid #ffffff;
+    background: tomato;
+    height: 296px;
+    width: 603px;
+    border-radius: 24px; */
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.swiper-slide {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    height: 356px;
+    /* width: 603px; */
+    border-radius: 24px;
+    /* padding: 10px; */
+}
+
+.swiper-span {
+    width: 450px;
+    height: 196px;
+    font-size: 14px;
+    font-family: 'Satoshi', 'sans-serif';
+    font-weight: 500;
+    line-height: 26px;
+    color: #A1A1A1;
+    text-transform: capitalize;
+    margin: 10px;
+    padding: 10px;
+}
+
+.comment-sect {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.swiper-user {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.swiper-user > span:nth-of-type(1) {
+    /* width: 73px; */
+    height: 19px;
+    font-family: 'Satoshi', 'san-serif';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.swiper-user > span:nth-of-type(2) {
+    height: 16px; 
+    font-family: 'Satoshi', 'san-serif';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #A1A1A1;
+    text-transform: capitalize;
+}
