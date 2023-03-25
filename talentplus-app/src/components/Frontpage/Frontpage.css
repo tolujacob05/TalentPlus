@@ -19,10 +19,10 @@ main {
 }
 
 .first-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     position: relative;
-    padding: 65px;
+    padding: 50px;
 }
 
 .main-sec {
@@ -39,6 +39,7 @@ main {
     line-height: 82px;
     color: #fff;
     width: 698px;
+    /* text-align: center; */
 }
 
 .main-sec > span:nth-of-type(2) {
