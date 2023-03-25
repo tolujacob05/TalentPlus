@@ -43,3 +43,19 @@ nav ul {
     text-transform: capitalize;
 }
 
+.toggle-img {
+    width: 18.8px;
+    height: 12.8px;
+}
+
+.menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    nav > ul {
+        display: flex;
+        gap: rem;
+    }
+}
