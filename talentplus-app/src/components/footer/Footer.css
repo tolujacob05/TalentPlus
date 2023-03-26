@@ -1,0 +1,148 @@
+footer {
+    background: #000F24;
+    margin-top: 82px;
+    height: 708px;
+    /* padding: 100px; */
+}
+
+.footer-container {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.3fr);
+    justify-content: center;
+    gap: 100px;
+    /* margin-top: 40px; */
+}
+
+.footer-logo {
+    display: grid;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo > span {
+    width: 281px;
+    height: 44px;
+    font-family: 'Satoshi', 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 30.8px;
+}
+
+.footer-useful-links {
+    display: grid;
+    gap: 32px;
+}
+
+.footer-useful-links > span {
+    width: 191px;
+    height: 39px;
+    font-family: 'Clash Display', 'sans-serif';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    color: #ffffff; 
+    text-transform: capitalize;   
+}
+
+.footer-links {
+    display: grid;
+    gap: 16px;
+}
+
+.footer-links > span {
+    font-family: 'Satoshi', 'sans-serif';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.footer-community {
+    display: grid;
+    gap: 32px;
+}
+
+.footer-community > span {
+    width: 188px;
+    height: 39px;
+    font-family: 'Clash Display', 'sans-serif';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.community {
+    display: grid;
+    gap: 16px;
+}
+
+.community > span {
+    font-family: 'Satoshi', 'sans-serif';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.footer-search {
+    display: grid;
+    gap: 32px;
+}
+
+.footer-search > span {
+    width: 211px;
+    height: 39px;
+    font-family: 'Clash Display', 'sans-serif';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-transform: capitalize;
+    
+}
+
+.input {
+    display: flex;
+}
+
+.input > input {
+    width: 263px;
+    height: 46px;
+    border: 1px solid #054FB3;
+}
+
+input::placeholder {
+    padding: 1rem;
+}
+
+.input > button {
+    width: 123px;
+    height: 49.5px;
+    border: 1px solid #054FB3;
+    background: #054FB3;
+    color: #ffffff;
+    font-family: 'Satoshi', 'sans-serif';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;    
+}

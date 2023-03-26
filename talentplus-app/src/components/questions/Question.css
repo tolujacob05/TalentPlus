@@ -1,0 +1,127 @@
+.question-cont {
+    margin-top: 80px;
+}
+
+/* .question-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} */
+
+.question-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.frequent {
+    display: flex;
+}
+
+.frequent-img  {
+    transform: translateX(150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frequent > span {
+    text-align: center;
+    height: 69px;
+    font-family: 'Clash Display', 'sans-serif';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em; 
+    width: 809px;
+    text-transform: capitalize;
+    color: #000F24;
+}
+
+.question-heading > span {
+    width: 743px;
+    height: 56px;
+    font-family: 'Satoshi', 'sans-serif';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #A1A1A1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.line > hr {
+    border: 1px solid #EAEAEA;
+    background: #EAEAEA;
+    width: 1037px;
+}
+
+.trial {
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.trial-text {
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+  /* align-items: center;
+    justify-content: center;   */
+}
+
+.remove {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-text > span {
+    width: 333px;
+    height: 32px;
+    font-family: 'Satoshi', 'sans-serif';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #004DB3;
+    /* text-align: center; */
+}
+
+.trial-t {
+    width: 1032px;
+    height: 78px;
+    font-family: 'Satoshi', 'sans-serif';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;    
+    text-transform: capitalize;
+}
+
+.trial-lists {
+    display: grid;
+    gap: 32px;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add > span {
+    width: 444px;
+    height: 32px;
+    font-family: 'Satoshi', 'sans-serif';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #000F24;
+}
+
