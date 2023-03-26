@@ -18,7 +18,9 @@ const Reason = () => {
                     <div className="vector9">
                         <img src={Vector9} alt="" />
                     </div>
-                    <img src={pic3} alt="" />
+                    <div className="reason-img">
+                        <img src={pic3} alt="" />
+                    </div>
                 </div>
                 <div className="reason-grid">
                     <div className="grid">

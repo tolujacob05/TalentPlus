@@ -57,17 +57,17 @@ const Course = () => {
                             </div>
                             <div className="time">
                                 <div className="hours">
-                                    <div><img src={schedule} alt="" /></div>
+                                    <div className="h-img"><img src={schedule} alt="" /></div>
                                     <span>23hrs 60mins</span>
                                 </div>
                                 <div className="book">
-                                    <div><img src={menu_book} alt="" /></div>
+                                    <div className="b-img"><img src={menu_book} alt="" /></div>
                                     <span>15 lessons</span>
                                 </div>
                             </div>
                             <div className="course-pic">
                                 <div className="user-pic">
-                                    <div><img src={Frame115} alt="" /></div>
+                                    <div className="users"><img src={Frame115} alt="" /></div>
                                     <span>leornard victor</span>
                                 </div>
                                 <div className="course-num">
@@ -94,17 +94,17 @@ const Course = () => {
                             </div>
                             <div className="time">
                                 <div className="hours">
-                                    <div><img src={schedule} alt="" /></div>
+                                    <div className="h-img"><img src={schedule} alt="" /></div>
                                     <span>22hrs 30mins</span>
                                 </div>
                                 <div className="book">
-                                    <div><img src={menu_book} alt="" /></div>
+                                    <div className="b-img"><img src={menu_book} alt="" /></div>
                                     <span>22 lessons</span>
                                 </div>
                             </div>
                             <div className="course-pic">
                                 <div className="user-pic">
-                                    <div><img src={Frame116} alt="" /></div>
+                                    <div className="users"><img src={Frame116} alt="" /></div>
                                     <span>Jeffrey williams</span>
                                 </div>
                                 <div className="course-num">
@@ -131,17 +131,17 @@ const Course = () => {
                             </div>
                             <div className="time">
                                 <div className="hours">
-                                    <div><img src={schedule} alt="" /></div>
+                                    <div className="h-img"><img src={schedule} alt="" /></div>
                                     <span>45hrs 50mins</span>
                                 </div>
                                 <div className="book">
-                                    <div><img src={menu_book} alt="" /></div>
+                                    <div className="b-img"><img src={menu_book} alt="" /></div>
                                     <span>55 lessons</span>
                                 </div>
                             </div>
                             <div className="course-pic">
                                 <div className="user-pic">
-                                    <div><img src={Frame117} alt="" /></div>
+                                    <div className="users"><img src={Frame117} alt="" /></div>
                                     <span>claretta mason</span>
                                 </div>
                                 <div className="course-num">
@@ -168,17 +168,17 @@ const Course = () => {
                             </div>
                             <div className="time">
                                 <div className="hours">
-                                    <div><img src={schedule} alt="" /></div>
+                                    <div className="h-img"><img src={schedule} alt="" /></div>
                                     <span>30hrs 50mins</span>
                                 </div>
                                 <div className="book">
-                                    <div><img src={menu_book} alt="" /></div>
+                                    <div className="b-img"><img src={menu_book} alt="" /></div>
                                     <span>25 lessons</span>
                                 </div>
                             </div>
                             <div className="course-pic">
                                 <div className="user-pic">
-                                    <div><img src={Frame118} alt="" /></div>
+                                    <div className="users"><img src={Frame118} alt="" /></div>
                                     <span>Jessica duke</span>
                                 </div>
                                 <div className="course-num">
@@ -205,17 +205,17 @@ const Course = () => {
                             </div>
                             <div className="time">
                                 <div className="hours">
-                                    <div><img src={schedule} alt="" /></div>
+                                    <div className="h-img"><img src={schedule} alt="" /></div>
                                     <span>33hrs 50mins</span>
                                 </div>
                                 <div className="book">
-                                    <div><img src={menu_book} alt="" /></div>
+                                    <div className="b-img"><img src={menu_book} alt="" /></div>
                                     <span>26 lessons</span>
                                 </div>
                             </div>
                             <div className="course-pic">
                                 <div className="user-pic">
-                                    <div><img src={Frame119} alt="" /></div>
+                                    <div className="users"><img src={Frame119} alt="" /></div>
                                     <span>Samuel jacobs</span>
                                 </div>
                                 <div className="course-num">
@@ -242,17 +242,17 @@ const Course = () => {
                             </div>
                             <div className="time">
                                 <div className="hours">
-                                    <div><img src={schedule} alt="" /></div>
+                                    <div className="h-img"><img src={schedule} alt="" /></div>
                                     <span>10hrs 50mins</span>
                                 </div>
                                 <div className="book">
-                                    <div><img src={menu_book} alt="" /></div>
+                                    <div className="b-img"><img src={menu_book} alt="" /></div>
                                     <span>32 lessons</span>
                                 </div>
                             </div>
                             <div className="course-pic">
                                 <div className="user-pic">
-                                    <div><img src={Frame120} alt="" /></div>
+                                    <div className="users"><img src={Frame120} alt="" /></div>
                                     <span>adam smith</span>
                                 </div>
                                 <div className="course-num">

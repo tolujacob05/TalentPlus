@@ -125,3 +125,46 @@
     color: #000F24;
 }
 
+
+@media screen and (max-width: 480px) {
+    .frequent > span {
+        height: 24px;
+        font-size: 24px;
+        line-height: 29.52px;
+        width: 347px;
+    }
+
+    .question-heading > span {
+        width: 290.5px;
+        height: 48px;
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    .line > hr {
+        border: 1px solid #EAEAEA;
+        background: #EAEAEA;
+        width: 354px;
+    }
+
+    .t-text > span {
+        width: 194px;
+        height: 19px;
+        font-size: 14px;
+        line-height: 18.9px;
+    }
+
+    .trial-t {
+        width: 351.9px;
+        height: 48px;
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    .add > span {
+        width: 209px;
+        height: 19px;
+        font-size: 14px;
+        line-height: 18.9px;
+    }
+}
