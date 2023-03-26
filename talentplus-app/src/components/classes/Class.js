@@ -26,7 +26,9 @@ const Class = () => {
                                 </span>
                             </div>
                             <span>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</span>
-                            <span> view courses</span>
+                           <div className="course-button">
+                                <span> view courses</span>
+                           </div>
                             <div className="class-type">
                                 <div className="type1">
                                     <div className="class-type1">

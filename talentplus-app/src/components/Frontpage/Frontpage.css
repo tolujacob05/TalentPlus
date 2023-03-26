@@ -1,6 +1,6 @@
 main {
     background: #004DB3;
-    height: 960px;
+    height: 947px;
     width: 100%;
 }
 
@@ -123,11 +123,15 @@ main {
 /* Media Query */
 @media screen and (max-width: 480px){
     main {
+        background: #004DB3;
+        height: 714px;
         width: 100%;
     }
 
     .vector11 > img {
-        transform: translateY(350px);
+        transform: translateY(330px);
+        position: absolute;
+        left: -2rem;
     }
 
     .dots {
@@ -216,6 +220,7 @@ main {
     .main-images {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .main-images > img {

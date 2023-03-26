@@ -76,8 +76,12 @@
 }
 
 @media screen and (max-width: 480px){
+    .images-section {
+        transform: translateY(-15%);
+    }
+
     .bulb {
-        transform: scale(0.6);
+        transform: scale(0.5);
     }
 
     .bulb > img {
@@ -98,25 +102,39 @@
     }
 
     .dot3 > img {
-        transform: translateY(-55px);
+        transform: translateY(-105px);
     }
 
     .line > img {
-        /* transform: translateY(-100px); */
+        transform: scale(0.8);
         position: absolute;
-        bottom: 100px;
+        bottom: 250px;
         left: -50px;
     }
 
     .hero-img {
         /* width: 363.01px;
         height: 456px; */
-        transform: scale(0.5);
+        transform: scale(0.4);
         position: absolute;
-        left: -40%;
+        left: -45%;
     }
 
     .hero-img > img {
         transform: translateY(-45%);
+    }
+
+    .vs-code {
+        position: absolute;
+        right: 12%;
+        display: grid;
+        gap: 158px;
+        top: -35%;
+    }
+
+    .word-press {
+        transform: translateX(35%);
+        display: grid;
+        gap: 25rem;
     }
 }

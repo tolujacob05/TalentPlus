@@ -36,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Satoshi;
+    font-family: 'Satoshi', 'sans-serif';
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -115,4 +115,66 @@ body {
     letter-spacing: 0em;
     color: #A1A1A1;
     text-transform: capitalize;
+}
+
+
+@media screen and (max-width: 480px) {
+    .comment-cont {
+        margin-top: 62px;
+    }
+
+    .comment-head {
+        margin-bottom: 32px;
+    }
+
+    .comment-head > span:nth-of-type(1) {
+        text-align: center;
+        width: 344px;
+        height: 30px;
+        font-size: 24px;
+        line-height: 29.52px;
+    }
+    
+    .comment-head > span:nth-of-type(2) {
+        text-align: center;
+        width: 288.12px;
+        height: 48px;
+        line-height: 16px;
+        font-size: 8px;
+    }     
+
+    .swiper-span {
+        width: 100px;
+        height: 112px;
+        font-size: 8px;
+        line-height: 13.5px;
+        margin: 10px;
+        padding: 0px;
+    }
+
+    .comment-sect {
+        transform: translateY(260%);
+        margin: 1px;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .swiper-img > img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .swiper-user > span:nth-of-type(1) {
+        width: 52px;
+        height: 14px;
+        font-size: 10px;
+        line-height: 13.5px;
+    }
+
+    .swiper-user > span:nth-of-type(2) {
+        width: 62px;
+        height: 11px;
+        font-size: 8px;
+        line-height: 13.5px;
+    }
 }

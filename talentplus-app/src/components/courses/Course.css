@@ -71,7 +71,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(20%);
+    /* transform: translateY(20%); */
 }
 
 .type-1 > span:nth-of-type(1) {
@@ -380,3 +380,318 @@ body {
     text-transform: capitalize;
 } 
 
+
+@media screen and (max-width:480px) {
+    .course {
+        /* margin-top: 5rem; */
+        position: relative;
+        padding: 30px;
+    }
+
+    .course-text > span:nth-of-type(1) {
+        text-align: center;
+        width: 355px;
+        height: 30px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.52px;
+    }
+    
+    .course-text > span:nth-of-type(2) {
+        width: 282.11px;
+        height: 48px;
+        font-size: 8px;
+        font-weight: 500;
+        line-height: 16px;
+        transform: translateX(20px);
+    }
+
+    .course-img {
+        position: absolute;
+        top: -1rem;
+        left: 0rem;
+    }
+
+    .course-img > img {
+        width: 16.45px;
+        height: 18.31px;
+    }
+
+    .type-heading {
+        gap: 32px;
+        margin-top: 20px;
+    }
+
+    .type-1 {
+        width: 69px;
+        height: 19px;
+    }
+
+    .type-1 > span:nth-of-type(1) {
+        width: 53px;
+        height: 11px;
+        font-size: 8px;
+        line-height: 10.8px;
+    }
+
+    .type-heading > span:nth-of-type(1) {
+        width: 50px;
+        height: 11px;
+        font-size: 8px;
+        line-height: 10.8px;
+    }
+
+    .type-heading > span:nth-of-type(2) {
+        width: 50px;
+        height: 11px;
+        font-size: 8px;
+        line-height: 10.8px;
+    }
+
+    .type-heading > span:nth-of-type(3) {
+        width: 50px;
+        height: 11px;
+        font-size: 8px;
+        line-height: 10.8px;
+    }
+
+    .course-section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px;
+        margin-top: 30.42px;
+        /* margin: 20px; */
+    }
+
+    .course-types {
+        width: 195px;
+        height: 234px;
+        border: 1px solid #ffffff;
+        background: #ffffff;
+        border-radius: 4px;
+        /* padding: 10px; */
+        position: relative;
+        transform: scale(0.9);
+    }
+
+    .pic4 {
+        display: flex;
+        width: 176.82px;
+        height: 117.88px;
+        transform: translateX(5%);
+    }
+
+    .pic4 > img { 
+        border-radius: 2px;
+        transform: scale(0.8);
+    }
+
+    .design-compt {
+        display: flex;
+        gap: 65px;
+        transform: translateX(28px);
+    }
+
+    .design {
+        width: 29px;
+        height: 9px;
+        border: 1px solid #1E5DCE33;
+        background: #1E5DCE33;
+        border-radius: 4px;
+    }
+
+    .design > span {
+        width: 13px;
+        height: 5px;
+        font-size: 4px;
+        line-height: 5.4px;
+    }
+
+    .design-num {
+        display: flex;
+        gap: 1px;
+    }
+
+    .design-num > span:nth-of-type(1) {
+        width: 8px;
+        height: 5px;
+        font-size: 4px;
+        font-family: 'Satoshi', sans-serif;
+        font-weight: 700;
+        color: #A1A1A1;
+    }
+
+    .design-img {
+        transform: scale(0.5);
+    }
+
+    .design-img > img {
+        transform: translateY(-20px);
+    }
+    
+    .design-num > span:nth-of-type(2) {
+        width: 8px;
+        height: 5px;
+        font-size: 4px;
+        font-family: 'Satoshi', sans-serif;
+        font-weight: 700;
+        color: #A1A1A1;
+    }
+
+    .intro {
+        width: 155.47px;
+        height: 20px;
+        font-size: 8px;
+        line-height: 9.84px;
+        transform: translateX(28px);
+    }
+
+    .time {
+        transform: translateX(20px);
+        display: flex;
+        gap: 60px;
+    }
+    
+    .hours {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h-img {
+        transform: translateX(8px);
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h-img > img {
+        width: 6.67px;
+        height: 6.67px;
+    }
+
+    .b-img {
+        transform: translateX(8px);
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .b-img > img {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .hours > span {
+        width: 37px;
+        height: 8px;
+        line-height: 5.4px;
+        font-size: 4px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .book {
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .book > span {
+        width: 20px;
+        height: 5px;
+        font-size: 4px;
+        line-height: 5.4px;
+    }
+
+    .course-pic {
+        display: flex;
+        gap: 35px;
+        transform: translateX(20px);
+    }
+    
+    .user-pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .users {
+        transform: scale(0.8);
+    }
+    
+    .user-pic > span {
+        width: 42px;
+        height: 8px;
+        font-size: 6px;
+        line-height: 8.1px;
+    }
+    
+    .course-num > span {
+        width: 30px;
+        height: 10px;
+        font-size: 8px;
+        line-height: 9.8px;
+    }
+
+    .design1 {
+        width: 35px;
+        height: 9px;
+        border: 1px solid #1E5DCE33;
+        background: #1E5DCE33;
+        border-radius: 6.4px;
+    }
+    
+    .design1 > span {
+        width: 19px;
+        height: 5px;
+        line-height: 5.4px;
+        font-size: 4px;
+    }
+    
+    .design2 {
+        width: 41px;
+        height: 9px;
+        border: 1px solid #1E5DCE33;
+        background: #1E5DCE33;
+        border-radius: 6.44px;
+    }
+    
+    .design2 > span {
+        width: 25px;
+        height: 5px;
+        line-height: 5.4px;
+        font-size: 4px;
+    }
+    
+    .design-compt1 {
+        display: flex;
+        gap: 70px;
+        transform: translateX(25px);
+    }
+    
+    .design-compt2 {
+        display: flex;
+        gap: 50px;
+        transform: translateX(25px);
+    }
+
+    .course-btn {
+        margin-top: 20px;
+    }
+    
+    .course-btn > span {
+        text-align: center;
+        font-size: 8px;
+        color: #ffffff;
+        line-height: 21.6px;
+        width: 83px;
+        height: 27px;
+        border: 1px solid #004DB3;
+        background: #004DB3;
+        border-radius: 2.2px;
+    } 
+}
